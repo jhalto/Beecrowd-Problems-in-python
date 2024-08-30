@@ -1,0 +1,6 @@
+number = int(input())
+workinghours = float(input())
+amountperhour= float(input())
+salary= workinghours*amountperhour
+print("NUMBER = %d"%number)
+print("SALARY = U$ %.2f"%salary)
