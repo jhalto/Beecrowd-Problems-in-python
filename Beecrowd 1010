@@ -1,0 +1,8 @@
+product1 = input().split(" ")
+product1code,product1untits,product1price =product1
+product2 = input().split(" ")
+product2code,product2untits,product2price = product2
+product1total= int(product1untits)*float(product1price)
+product2total= int(product2untits)*float(product2price)
+total = product1total+product2total
+print("VALOR A PAGAR: R$ %.2f"%total)
