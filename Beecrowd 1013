@@ -1,0 +1,2 @@
+a,b,s = list(map(int,input().split()))
+print("{} eh o maior".format(max(a,b,s)))
