@@ -1,0 +1,7 @@
+a,b,c= list(map(float,input().split()))
+if(a+b>c and a+c>b and b+c>a):
+    peri = a+b+c
+    print("Perimetro = %.1f"%peri)
+else:
+    area = ((a+b)/2)*c
+    print("Area = %.1f"%area)
