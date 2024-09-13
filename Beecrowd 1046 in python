@@ -1,0 +1,6 @@
+a,b = list(map(int, input().split()))
+if(a<b):
+    time = b-a
+else:
+    time = 24 - (abs(a-b))
+print("O JOGO DUROU %d HORA(S)"%time)
